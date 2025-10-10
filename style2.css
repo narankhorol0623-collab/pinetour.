@@ -1,7 +1,9 @@
 .body {
   display: flex;
   margin: 50px;
-  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 1440px;
 }
 
 input {
@@ -92,11 +94,15 @@ input {
   background-color: white;
   border-radius: 9px;
   color: #473b4e;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30pxpx;
+  margin-left: 40px;
+  font-weight: 500;
 }
 .inputs {
   gap: 50px;
   padding: 30px;
-  background-color: #eeeeee;
 }
 .input {
   padding: 10px;
@@ -113,4 +119,24 @@ input {
 }
 .message-input:focus ~ .text-hr {
   border-color: #a91079;
+}
+.name-input,
+.email-input,
+.message-input {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #eeeeee;
+}
+#button-butt {
+  background-color: #a91079;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 150px;
+  font-size: 20px;
+  gap: 16px;
+  height: 78px;
+  width: 315px;
 }
