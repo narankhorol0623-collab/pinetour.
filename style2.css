@@ -1,0 +1,116 @@
+.body {
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+#background {
+  background-color: #3f0065;
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+  padding: 60px;
+}
+#background2 {
+  padding: 60px;
+  /* display: flex; */
+
+  /* justify-content: column; */
+}
+#ehniiheseg {
+  display: flex;
+  flex-direction: column;
+  gap: 500px;
+  justify-content: start;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#text1 {
+  display: flex;
+  justify-content: start;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-size: 48px;
+  font-weight: 700;
+}
+#detail1 {
+  color: #a91079;
+}
+#text2 {
+  font-size: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: row;
+  color: #eeeeee;
+}
+.icon {
+  width: 24px;
+  height: 18px;
+  gap: 30px;
+}
+.background-two {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 896px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.footers {
+  column-gap: 50px;
+  display: flex;
+}
+#face,
+#insta,
+#twitter {
+  height: 24px;
+  width: 24px;
+}
+#face {
+  color: #eeeeee;
+}
+#tele {
+  height: 24px;
+  width: 24px;
+}
+.button {
+  padding: 10px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 9px;
+  color: #473b4e;
+}
+.inputs {
+  gap: 50px;
+  padding: 30px;
+  background-color: #eeeeee;
+}
+.input {
+  padding: 10px;
+}
+#buttons {
+  padding: 20px;
+}
+
+.name-input:focus ~ .text-hr {
+  border-color: #a91079;
+}
+.email-input:focus ~ .text-hr {
+  border-color: #a91079;
+}
+.message-input:focus ~ .text-hr {
+  border-color: #a91079;
+}
